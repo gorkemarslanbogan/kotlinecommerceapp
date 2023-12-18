@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">E commerce App</string>
+    <string name="str_username">Username</string>
+    <string name="str_password">Password</string>
+    <string name="str_login">Login</string>
+    <string name="str_user_login">Welcome E-Buy App</string>
+    <string name="str_enjoy_secure_shopping">Enjoy secure shopping!</string>
+    <string name="str_product_name">Product Name</string>
+    <string name="str_product_desc">Product Description:</string>
+    <string name="str_product_price">Product Price</string>
+    <string name="str_value_can_not_empty">Value can not empty!</string>
+    <string name="str_login_success">Login is succesfull</string>
+    <string name="str_user_or_password_can_not_empty">Username or Password can not empty!</string>
+    <string name="str_user_or_password_wrong">Username or Password is Wrong!</string>
+    <string name="str_search_product">Search Product</string>
+    <string name="str_urunler">All Product</string>
+    <string name="str_stok">Stpl</string>
+    <string name="str_fiyat">Price</string>
+    <string name="str_sepete_ekle">Add to cart</string>
+    <string name="str_tl">₺</string>
+    <string name="str_desc">Description\n</string>
+    <string name="str_shared_name">EcommerceCacheData</string>
+    <string name="str_sepete_eklendi">Product added to cart.</string>
+    <string name="str_see_all">
+        <u>See All</u>
+    </string>
+
+    <string name="str_old_price">
+        <strike>$570</strike>
+    </string>
+    <string name="str_yetersiz_stok">Bu üründen daha fazla satın alamazsınız!</string>
+    <string name="str_stok_sifir_olamaz">Ürün stoğu 0\'dan küçük olamaz!</string>
+    <string name="str_alisverisi_tamamla">Checkout</string>
+    <string name="str_islem_basarili">Process is succesfull!</string>
+    <string name="str_hata">Error</string>
+    <string name="str_favorilediklerim">Favories</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_your_cards">Your Cards</string>
+    <string name="str_degisikleri_kaydet">Değişiklikleri Kaydet\n</string>
+</resources>

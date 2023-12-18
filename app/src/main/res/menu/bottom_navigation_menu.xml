@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/homePageFragment"
+        android:title="Home"
+        android:icon="@drawable/home"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/searchProductFragment"
+        android:title="Search"
+        android:icon="@drawable/search"
+        android:iconTint="@color/black"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/favoriesFragment"
+        android:title="Favorite"
+        android:icon="@drawable/like_button"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/ordersFragment"
+        android:title="Orders"
+        android:icon="@drawable/icon_orders"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/updateUserFragment"
+        android:title="User"
+        android:icon="@drawable/user_svgrepo_com"
+        android:enabled="true"/>
+
+</menu>

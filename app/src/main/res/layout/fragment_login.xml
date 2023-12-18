@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="40dp"
+            android:elevation="10dp"
+            android:src="@drawable/shopping" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome Back"
+                android:textStyle="bold"
+                android:layout_gravity="start"
+                android:textSize="30sp"
+                android:textColor="@color/blue"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_enjoy_secure_shopping"
+                android:gravity="center_horizontal"
+                android:textSize="15sp"
+                android:textColor="@color/grey"/>
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="?attr/textInputFilledStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:startIconDrawable="@drawable/baseline_person_24"
+            android:hint="@string/str_username">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/filledemailTextInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:text="kminchelle"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="?attr/textInputFilledStyle"
+            android:layout_width="match_parent"
+            android:layout_marginVertical="16dp"
+            android:layout_height="wrap_content"
+            app:endIconMode="password_toggle"
+            app:startIconDrawable="@drawable/baseline_lock_24"
+            android:hint="@string/str_password">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/filledpasswordTextInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:text="0lelplR"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cornerRadius="12dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/blue"
+            android:text="@string/str_login" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:elevation="10dp"
+            android:src="@drawable/turkcell_logo_png" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Provider Turkcell A.Ş"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:textColor="@color/grey"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckBox xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/productLikeButton"
+    android:layout_width="32dp"
+    android:layout_height="32dp"
+    android:layout_gravity="end"
+    android:layout_margin="6dp"
+    android:elevation="70dp"
+    android:button="@drawable/like_button"
+    app:buttonTint="@android:color/holo_red_dark"
+    android:scaleType="centerCrop"/>

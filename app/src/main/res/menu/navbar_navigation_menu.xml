@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/homePageFragment"
+        android:title="Home"
+        android:icon="@drawable/home"
+        android:enabled="true"/>
+
+
+    <item
+        android:id="@+id/searchProductFragment"
+        android:title="@string/str_search_product"
+        android:icon="@drawable/search"
+        android:iconTint="@color/black"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/favoriesFragment"
+        android:title="Favorite"
+        android:icon="@drawable/like_button"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/ordersFragment"
+        android:title="Orders"
+        android:icon="@drawable/icon_orders"
+        android:enabled="true"/>
+
+
+    <item
+        android:id="@+id/categroiesFragment"
+        android:title="Categories"
+        android:icon="@drawable/icons_shop_card"
+        android:enabled="true"/>
+
+
+    <group android:id="@+id/group_id" android:checkableBehavior="single">
+        <item
+            android:id="@+id/loginFragment"
+            android:title="Çıkış Yap"
+            android:icon="@drawable/exit_icon"
+            android:enabled="true"/>
+    </group>
+
+
+
+</menu>

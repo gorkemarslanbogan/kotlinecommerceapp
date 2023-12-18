@@ -16,6 +16,8 @@ Here're some of the project's best features:
 *   Object Oriented Programming
 *   Custom UI
 *   DummyJson
+*   Shared Preferences
+*   Extension Fun
 
 <h2>Project Screenshots:</h2>
  

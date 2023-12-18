@@ -7,17 +7,17 @@ Here're some of the project's best features:
 *   Retrofit
 *   Rest-Api
 *   Glide
-*   Fragment
+*   Fragments
 *   Navigation Component
 *   MVVM
 *   Firebase Cloud Messaging
 *   LiveData
-*   Singleton
+*   Singleton Pattern
 *   Object Oriented Programming
 *   Custom UI
 *   DummyJson
 *   Shared Preferences
-*   Extension Fun
+*   Extension Function
 
 <h2>Project Screenshots:</h2>
  
